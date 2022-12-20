@@ -1,5 +1,5 @@
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" {
     const _default: {
         abi: ({
             inputs: {
@@ -44,8 +44,8 @@ declare module "@scom/cross-chain-token-contract/contracts/@openzeppelin/contrac
     };
     export default _default;
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -139,8 +139,8 @@ declare module "@scom/cross-chain-token-contract/contracts/@openzeppelin/contrac
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Authorization.json.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Authorization.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Authorization.json.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Authorization.json.ts" {
     const _default_1: {
         abi: ({
             inputs: any[];
@@ -181,8 +181,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Authorization.json.ts
     };
     export default _default_1;
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Authorization.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Authorization.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Authorization.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Authorization.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export class Authorization extends _Contract {
         static _abi: any;
@@ -242,8 +242,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Authorization.ts" {
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/CrossChainPolicy.json.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/CrossChainPolicy.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/CrossChainPolicy.json.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/CrossChainPolicy.json.ts" {
     const _default_2: {
         abi: ({
             inputs: {
@@ -288,8 +288,8 @@ declare module "@scom/cross-chain-token-contract/contracts/CrossChainPolicy.json
     };
     export default _default_2;
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/CrossChainPolicy.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/CrossChainPolicy.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/CrossChainPolicy.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/CrossChainPolicy.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IOnTransferParams {
         param1: string;
@@ -383,8 +383,8 @@ declare module "@scom/cross-chain-token-contract/contracts/CrossChainPolicy.ts" 
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Custodian.json.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Custodian.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Custodian.json.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Custodian.json.ts" {
     const _default_3: {
         abi: ({
             inputs: any[];
@@ -425,8 +425,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Custodian.json.ts" {
     };
     export default _default_3;
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Custodian.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Custodian.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Custodian.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Custodian.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IAllowTokenParams {
         token: string;
@@ -624,8 +624,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Custodian.ts" {
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Minter.json.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Minter.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Minter.json.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Minter.json.ts" {
     const _default_4: {
         abi: ({
             anonymous: boolean;
@@ -659,8 +659,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Minter.json.ts" {
     };
     export default _default_4;
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Minter.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Minter.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Minter.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Minter.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IBurnParams {
         txHash: string;
@@ -802,8 +802,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Minter.ts" {
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Token.json.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Token.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Token.json.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Token.json.ts" {
     const _default_5: {
         abi: ({
             inputs: {
@@ -848,8 +848,8 @@ declare module "@scom/cross-chain-token-contract/contracts/Token.json.ts" {
     };
     export default _default_5;
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/Token.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/Token.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/Token.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/Token.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -1012,16 +1012,16 @@ declare module "@scom/cross-chain-token-contract/contracts/Token.ts" {
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-token-contract/contracts/index.ts" />
-declare module "@scom/cross-chain-token-contract/contracts/index.ts" {
-    export { ERC20 } from "@scom/cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts";
-    export { Authorization } from "@scom/cross-chain-token-contract/contracts/Authorization.ts";
-    export { CrossChainPolicy } from "@scom/cross-chain-token-contract/contracts/CrossChainPolicy.ts";
-    export { Custodian } from "@scom/cross-chain-token-contract/contracts/Custodian.ts";
-    export { Minter } from "@scom/cross-chain-token-contract/contracts/Minter.ts";
-    export { Token } from "@scom/cross-chain-token-contract/contracts/Token.ts";
+/// <amd-module name="@scom/oswap-cross-chain-token-contract/contracts/index.ts" />
+declare module "@scom/oswap-cross-chain-token-contract/contracts/index.ts" {
+    export { ERC20 } from "@scom/oswap-cross-chain-token-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts";
+    export { Authorization } from "@scom/oswap-cross-chain-token-contract/contracts/Authorization.ts";
+    export { CrossChainPolicy } from "@scom/oswap-cross-chain-token-contract/contracts/CrossChainPolicy.ts";
+    export { Custodian } from "@scom/oswap-cross-chain-token-contract/contracts/Custodian.ts";
+    export { Minter } from "@scom/oswap-cross-chain-token-contract/contracts/Minter.ts";
+    export { Token } from "@scom/oswap-cross-chain-token-contract/contracts/Token.ts";
 }
-/// <amd-module name="@scom/cross-chain-token-contract" />
-declare module "@scom/cross-chain-token-contract" {
-    export * as Contracts from "@scom/cross-chain-token-contract/contracts/index.ts";
+/// <amd-module name="@scom/oswap-cross-chain-token-contract" />
+declare module "@scom/oswap-cross-chain-token-contract" {
+    export * as Contracts from "@scom/oswap-cross-chain-token-contract/contracts/index.ts";
 }
